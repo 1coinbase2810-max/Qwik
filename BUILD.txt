@@ -1,0 +1,10 @@
+# Build + run (needs Rust toolchain once on the target machine):
+#   1. Install Rust: https://rustup.rs/  (winget install Rustlang.Rustup)
+#   2. cd float-shortcut
+#   3. cargo build --release
+#   4. Copy shortcuts.toml next to target\release\float-shortcut.exe, edit paths, run the exe.
+#
+# Notes:
+# - No console window (windows_subsystem = "windows"), ~MBs of RAM (one HWND + 5 icons).
+# - If SmartScreen warns: local unsigned exe, expected for personal builds.
+# - Win+` toggles visibility; drag the dot to move (position persists in shortcuts.toml).

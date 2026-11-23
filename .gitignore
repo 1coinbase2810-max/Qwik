@@ -1,0 +1,23 @@
+# PyInstaller / Python
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.spec.bak
+
+# Bundles & zips (built via Releases, not git)
+*.zip
+Qwik/
+_internal/
+
+# Local user config (installed copy diverges per machine)
+# Keep the shipped example shortcuts.toml, ignore runtime edits is optional:
+# shortcuts.toml
+
+# Windows / editors
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,21 @@
+[[shortcut]]
+name = "chrome folder"
+path = "C:/Users/LENOVO/Downloads/chrome folder"
+uses = 2
+
+[[shortcut]]
+name = "wmplayer"
+path = "C:/Program Files/Windows Media Player/wmplayer.exe"
+uses = 1
+
+[[shortcut]]
+name = "NeatDM"
+path = "C:/Program Files (x86)/Neat Download Manager/NeatDM.exe"
+uses = 0
+
+[[shortcut]]
+name = "PowerShell"
+path = "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+uses = 0
+
+pos = [0, 145]
